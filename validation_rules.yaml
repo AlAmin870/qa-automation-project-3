@@ -1,0 +1,6 @@
+csv:
+  required_fields: ["id", "name", "email", "hire_date", "department", "salary"]
+  email_pattern: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'  # Single quotes to avoid escaping
+  date_format: "%Y-%m-%d"
+json:
+  required_fields: ["transaction_id", "employee_id", "product", "quantity", "price", "date"]
